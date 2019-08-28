@@ -1,0 +1,21 @@
+Package: exchangr
+Title: Resampling Functions for Multilevel Data
+Version: 0.1.2-9000
+Authors@R: 
+    person(given = "Dale",
+           family = "Barr",
+           role = c("aut", "cre"),
+           email = "dalejbarr@protonmail.com")
+Description: Functions for randomly shuffling factor levels for experimental data while respecting exchangeability requirements.
+License: CC BY-SA 4.0
+Encoding: UTF-8
+LazyData: true
+Depends: R (>= 2.10)
+Imports: 
+    rlang,
+    combinat,
+    tidyr,
+    dplyr
+Suggests: 
+    testthat
+RoxygenNote: 6.1.1
