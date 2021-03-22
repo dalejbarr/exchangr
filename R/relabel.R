@@ -41,8 +41,8 @@ NULL
 #' @export
 shuffle <- function(.data, x) {
   xn <- rlang::as_name(rlang::ensym(x))
-  data[[xn]] <- sample(data[[xn]])
-  data
+  .data[[xn]] <- sample(.data[[xn]])
+  .data
 }
 
 ## @details This function is to be applied to single level data
